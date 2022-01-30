@@ -1,0 +1,93 @@
+
+/* body styling */
+* {
+    margin: 0%;
+    padding: 0%;
+}
+    
+}
+h2{
+    font-size: 5rem;
+}
+h3{
+    font-size: 2rem;
+}
+p{
+    font-family: sans-serif;
+    padding: 1rem;
+    font-size: 1rem;
+    text-decoration:aliceblue;
+}
+/*Everything for navigation bar*/
+nav {
+    display: flex;
+    padding: 2rem;
+    background-color: rgb(8, 10, 8);
+    text-align: right;
+    justify-content: right;
+    align-items: right;
+    
+}
+
+li {
+    font-size: 2rem;
+    padding: 1rem;
+    text-decoration: none;
+    list-style: none;
+    font-style: normal;
+    color: aliceblue;
+}
+
+/*Everuthing for home page*/
+#Home_page{
+    background-image: linear-gradient(180deg, white,rgb(186, 206, 245));
+    margin-bottom: 1rem;
+}
+.main {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 3rem;
+}
+#Home_page{
+    height: 100%;
+    width: 100%;
+}
+.left {
+    position: relative;
+    left: 30px;
+    font-size: 1rem;
+    text-align: center;
+
+}
+
+.aside-main {
+    margin: 2rem;
+    font-size: 3.5rem;
+    text-align: center;
+}
+/*Everything for 2nd page*/
+#About_us{
+    background-image: linear-gradient(180deg, white, rgb(186,206,245));
+    height: 95vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*Everything for 3rd page */
+#Our_team{
+    background-image: linear-gradient(180deg, white, rgb(186,206,245));
+    height: 95vh;
+    width: 100%;
+    
+}
+
+/*Everything for 4th page*/
+#Contact_us{
+    background-image: linear-gradient(180deg, white, rgb(186,206,245));
+    height: 95vh;
+    width: 100%;
+}
