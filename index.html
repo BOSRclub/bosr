@@ -6,69 +6,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BOSR club</title>
-    <link rel="stylesheet" href="/style.css">
-    <style>
-        /* body styling */
-        * {
-            margin: 0%;
-            padding: 0%;
-            background-color: rgb(245, 241, 241);
-        }
-
-        nav {
-            display: flex;
-            padding: 2em;
-            background-color: limegreen;
-        }
-
-        li {
-            background-color: limegreen;
-            padding: 6px;
-            text-decoration: none;
-            list-style: none;
-
-        }
-
-        div.main {
-            height: 70vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        div.left {
-            position: relative;
-            left: 30px;
-        }
-
-        .aside-main {
-            margin: 60px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
         <!-- navigation starts -->
         <nav>
-            <li>Home</li>
-            <li>About</li>
-            <li>Contact us</li>
+            <li> <a href="#Home_page">Home</a>
+                <a href="#About_us">About</a>
+                <a href="#Our_team">Our Team</a>
+                <a href="#Contact_us">Contact Us</a>
+                
         </nav>
     </header>
-    <!-- main body  -->
+    <!--This is for Home page-->
+    <section id="Home_page">
     <div class="main">
         <div class="left">
-            <h1 class="main-h1">Welcome to the BOSR club.</h1>
-            <p>Birendra Open Source And Robotics Club</p>
+            <img src="logo.png" alt="logo">
+            <br>
+            <h3>What is open source?</h3>
+            <br>
+            <p>Basically, open source refers to the source code that is freely available for the
+            modifications.It is a response to the limitations of the proprietary softwares.</p>
         </div>
-
         <aside class="aside-main">
-            What is open source?<br>Basically, open source refers to the source code that is freely available for the
-            modifications.It is a response to the limitations of the proprietary softwares.
-
+            <h1 class="main-h1">Welcome to the BOSR club</h1>
+         
         </aside>
     </div>
+    </section>
+    <!--2nd page -->
+    <section id="About_us">
+        <h2>About BOSR club</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus fugiat minus enim officiis velit perferendis. Veritatis sint aliquam porro amet aliquid. Ipsa quos officiis odit, sapiente eveniet perspiciatis necessitatibus ducimus.</p>
+     
+      <!--3rd page-->
+       </section>
+       <section id="Our_team">
+           <h2>Meet our Team</h2>
+       </section>
+
+      <!--4th page-->
+    </section>
+    <section id="Contact_us">
+        <h2>Contact_us</h2>
+        
 </body>
 
 </html>
