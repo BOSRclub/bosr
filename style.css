@@ -106,3 +106,37 @@ li {
     height: 14rem;
     position: relative;
 }
+.social_medias{
+    color: aliceblue;
+    background: rgb(73, 72, 72);
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  .fa-facebook {
+  background: #3B5998;
+  color: white;
+  }
+  .fa-facebook:hover{
+      background:white;
+
+  }
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  footer{
+      position: relative;
+      background: rgb(87, 192, 26);
+      top: 60%;
+      padding: 1em;
+  }
